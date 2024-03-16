@@ -26,13 +26,12 @@ def sybil_attack(ids, home_or_defense: str, binary_or_affine: str = "affine"):
         raise Exception(f"Request failed. Status code: {response.status_code}, content: {response.content}")
 
 
-print(sybil_attack())
+output_file = "out.csv"
 
-# COMMON_IDS = []
-# USER_SPECIFIC_IDS = [[], [], [], []]
-#
-# output_file = open("out.csv")
-# fieldnames = ["img_id", "user", "output"]
-# writer = csv.DictWriter(output_file, fieldnames=fieldnames)
-#
-# for user_ids in USERS:
+fieldnames = ["img_id", "type", "response"]
+writer = csv.DictWriter(output_file, fieldnames=fieldnames)
+
+
+COMMON_IDS = list(range(1000))
+
+response =
