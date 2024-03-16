@@ -1,5 +1,1 @@
-.idea
-*.ipynb
-*.pyc
-venv
-.venv
+/.idea/
