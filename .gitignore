@@ -1,5 +1,4 @@
 .idea
-*.ipynb
 *.pyc
 venv
 .venv
