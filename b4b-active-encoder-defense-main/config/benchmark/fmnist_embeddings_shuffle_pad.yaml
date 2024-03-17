@@ -1,7 +1,0 @@
-defaults:
-  - _self_
-  - fmnist_embeddings
-  - embeddings/transform:
-    - shuffle_pad
-
-name: fmnist_embeddings_shuffle_pad
